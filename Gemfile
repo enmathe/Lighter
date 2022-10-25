@@ -3,10 +3,10 @@ ruby '2.4.4'
 
 gem 'bootsnap', require: false
 gem 'devise'
-gem 'jbuilder', '~> 2.0'
+gem 'jbuilder', '~> 2.8', '>= 2.8.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
-gem 'rails', '5.2.1'
+gem 'rails', '5.2.4.3'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -18,7 +18,7 @@ gem 'uglifier'
 gem 'webpacker'
 
 group :development do
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 3.7.0'
 end
 
 group :development, :test do
@@ -26,6 +26,6 @@ group :development, :test do
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
-  gem 'spring-watcher-listen', '~> 2.0.0'
+  gem 'spring-watcher-listen', '~> 2.0.1'
   gem 'dotenv-rails'
 end
